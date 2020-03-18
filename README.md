@@ -3,6 +3,7 @@
 #include<stdlib.h>
 
 void player_move(char arr[3][3])
+
 {
     int m=0,n=0;
     printf("Enter row of cell:");
@@ -22,6 +23,7 @@ void player_move(char arr[3][3])
 }
 
 void computer_move(char arr[3][3])
+
 {
     int m=rand()%3;
     int n=rand()%3;
@@ -37,6 +39,7 @@ void computer_move(char arr[3][3])
 }
 
 void display(char arr[3][3])
+
 {
     int i,j,r=3,c=3;
     for(i=0;i<r;i++)
@@ -50,6 +53,7 @@ void display(char arr[3][3])
 }
 
 void check(char arr[3][3])
+
 {
     int i;
     for(i=0;i<3;i++)
@@ -95,6 +99,7 @@ void check(char arr[3][3])
 
 }
 int main()
+
 {
    char ttt[3][3];
      int i,j,r=3,c=3;
